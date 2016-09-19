@@ -4,7 +4,6 @@ MAINTAINER AttractGroup
 
 RUN apt-get clean && apt-get update
 
-# Install Main Programs
 RUN apt-get install -y \
 	curl \
 	mcrypt \
